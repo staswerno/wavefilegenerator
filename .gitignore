@@ -1,6 +1,7 @@
 # compiled binaries
 /wavefilegenerator
 /clean/wavefilegenerator-clean
+/test
 *.o
 *.dSYM/
 
