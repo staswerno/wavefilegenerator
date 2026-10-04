@@ -2,7 +2,7 @@
 
 ## introduction
 
-running the wave fine generator writes a 3 second wav file containing a sine wave at 528 Hz
+running the wave file generator writes a 3 second WAV file containing a sine wave at 528 Hz
 
 the primary program file is `wavefilegenerator.cpp`
 
@@ -31,16 +31,16 @@ the `-o` flag means "output" <br>
 
 ## notes
 
-### wav files
+### WAV files
 
-- wav files start with a 44-byte header broken into 3 sections
+- WAV files start with a 44-byte header broken into 3 sections
 - each header field has a fixed byte-width
     - numeric fields use fixed-width int types matching that size (AudioFormat = 2 bytes -> `uint16_t`)
     - text markers (RIFF, WAVE, fmt , data) are 4-byte character sequences, not numbers
     - see below for full list of header fields
 
 
-### wav file header fields
+### WAV file header fields
 
 | Field | Size | Type | Description |
 |---|---|---|---|
