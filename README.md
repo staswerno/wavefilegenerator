@@ -1,5 +1,9 @@
 # README
 
+## introduction
+
+running the wave fine generator writes a 3 second wav file containing a sine wave at 528 Hz
+
 the primary program file is `wavefilegenerator.cpp`
 
 an uncommented version of the code is available in `./clean`
