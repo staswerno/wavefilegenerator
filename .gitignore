@@ -1,0 +1,11 @@
+# compiled binaries
+/wavefilegenerator
+/clean/wavefilegenerator-clean
+*.o
+*.dSYM/
+
+# generated audio (example files in /examples are still committed)
+/*.wav
+
+# macOS
+.DS_Store
