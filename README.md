@@ -1,4 +1,4 @@
-# README
+# WAVE FILE GENERATOR
 
 ## introduction
 
